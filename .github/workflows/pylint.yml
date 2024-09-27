@@ -30,6 +30,9 @@ jobs:
     - name: Creating datestamp file
       run: |
         python scripts/create_datestamp.py
+    - name: Run fill_lists.py script
+      run: |
+        python scripts/fill_lists.py
     - name: Push datestamp file
       run: |
         git config --local user.name "github-actions[bot]"
