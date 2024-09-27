@@ -1,3 +1,7 @@
+"""
+Calculate smth
+"""
+
 from math import sqrt, exp, pi
 
 X_START = -4
